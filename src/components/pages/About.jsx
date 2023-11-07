@@ -1,15 +1,20 @@
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <section className="left-side" id="about">
+      <h2 className="title">About Me</h2>
+      <article className="section-container">
+        <p>¡Hola! I'm a proud Cuban native who grew up in the vibrant city of Miami, FL. As a native Spanish
+          speaker, I effortlessly navigate between languages, which has enriched my ability to connect with people
+          from different cultures throughout my upbringing. After an almost decade long career in Hospitality and
+          Events, I am persuing my education as a Full Stack Web Developer. My love of technology spans as far
+          back as dial-up days and MySpace forums.</p>
+
+        <p>When I'm not coding, you'll often find me engrossed in the world of cinema, my favorite film being
+          Interstellar! I also have a passion for entrepreneurship and have even started two businesses in the
+          last three years. My self-starter attitude has opened many doors for me and I hope to grow in the tech
+          industry as I continue my learning. Below are my first few projects as well as other technical skills I
+          have developed throughout my career.</p>
+      </article>
+    </section>
   );
 }
