@@ -1,20 +1,18 @@
 export default function Contact() {
   return (
-    <div>
+    <div class="left-side" id="contact">
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+        <article class="section-container">
+            <ul>
+                <li>786-277-1882</li>
+                <li><a href="mailto:menarujaine@gmail.com">Email</a></li>
+                <li><a href="https://github.com/rujainemena">GitHub</a></li>
+                <li><a href="https://www.instagram.com/rujaine/">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/rujaine/">LinkedIn</a></li>
+            </ul>
+        </article>
+
+      
     </div>
   );
 }
